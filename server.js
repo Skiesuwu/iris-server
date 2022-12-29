@@ -8,7 +8,6 @@ const cors = require('cors');
 const app = express();
 const path = require('path');
 
-require('./socket/WebSocket');
 require('./Database/database');
 
 app.use(cors());
