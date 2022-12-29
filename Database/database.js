@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Logger = require('../../utils/logging/Logger');
+const Logger = require('../logging/Logger');
 
 try {
   mongoose
